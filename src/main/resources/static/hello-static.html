@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>정적 컨텐츠 예시</title>
+    <style>
+        body {
+            font-family: 'Nanum Gothic', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0066cc;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>정적 컨텐츠 학습하기!</h1>
+    <p>정적 컨텐츠란 원본 파일을 서버 쪽에서 어떠한 처리도 하지 않고 그대로 클라이언트에 전달되는 방식이다.
+    <p>어떤 접속자든 동일한 화면을 제공하게 된다.</p>
+    <p>그렇기에 웹 서버의 디스크를 저장을 해두고 요청(Req)이 있으면 웹 서버에서 그대로 클라이언트에 반환(res)해준다. </p>
+    <p>로고 같이 변하지 않는 것을 랜더링할때 유용할 것 같다.</p>
+</div>
+</body>
+</html>
